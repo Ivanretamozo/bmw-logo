@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #1e1e1e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.container {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  background-color: #fff;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+.black-circle {
+  position: absolute;
+  background-color: #131722;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  inset: 0;
+  margin: auto;
+}
+.inside-container {
+  position: absolute;
+  background-color: #f8f8f8;
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  inset: 0;
+  margin: auto;
+}
+.color-logo {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  inset: 0;
+  margin: auto;
+}
+.container-square {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  clip-path: circle(50% at 50% 50%);
+  z-index: 5;
+}
+
+.square-1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #3399cc;
+  border-bottom: 4px solid #141a26;
+  border-left: 4px solid #141a26;
+  width: 150px;
+  height: 150px;
+}
+
+.square-2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #3399cc;
+
+  border-top: 4px solid #141a26;
+  border-right: 4px solid #141a26;
+  border-bottom: 10px none #141a26;
+  width: 154px;
+  height: 154px;
+}
+.font-M {
+  position: absolute;
+  color: #fff;
+  font-size: 80px;
+  top: 0%;
+  left: 43%;
+  margin: auto;
+}
+.font-B {
+  position: absolute;
+  color: #f8f8f8;
+  font-size: 80px;
+  top: 14%;
+  left: 13%;
+  margin: auto;
+  transform: rotate(-50deg);
+}
+.font-W {
+  position: absolute;
+  color: #f8f8f8;
+  font-size: 80px;
+  top: 14%;
+  right: 12%;
+  margin: auto;
+  transform: rotate(50deg);
+}
